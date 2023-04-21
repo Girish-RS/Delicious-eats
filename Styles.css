@@ -1,0 +1,73 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #ccc;
+}
+
+nav ul li a.active {
+  color: #ccc;
+}
+
+/* Menu styles */
+#menu {
+  background-image: url('menu-bg.jpg');
+  background-size: cover;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+#menu h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#menu p {
+  font-size: 24px;
+}
+
+/* Item styles */
+#items {
+  display: flex;
+  justify-content: center;
+  size:50px
+}
